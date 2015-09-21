@@ -4,8 +4,24 @@
 #include "../libs/mongoose.h"
 #include "../libs/sqlite3.h"
 
-int main(void){
+#define tamanho_buffer 150000
 
-	printf ("%s \n", "Iniciando o Projeto XPhere!!");
-	system("pause");
+int main(void) {
+    struct mg_server *server;
+
+    // Criando e configurando o servidor
+    server = mg_create_server(NULL, ev_handler);
+    mg_set_option(server, "document_root", ".");
+    mg_set_option(server, "listening_port", "8080");
+
+    // Serve request. Hit Ctrl-C to terminate the program
+    printf("Iniciando na porta %s\n", mg_get_option(server, "listening_port"));
+    for (;;) {
+        mg_poll_server(server, 1000);
+    }
+
+    // Limpando e liberando o servidor
+    mg_destroy_server(&server);
+
+    return 0;
 }
