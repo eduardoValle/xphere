@@ -9,6 +9,34 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     </head>
     <body>
+        
+        <!-- botão compartilhar-->
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=769129179883605";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <!-- botão curtir-->
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=769129179883605";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+
         <ul>
             <li>
                 <a href="https://www.facebook.com/sharer/sharer.php?u=http://matheusmatos26.github.io/xphere" target="http://matheusmatos26.github.io/xphere">
@@ -31,9 +59,17 @@
 
         <section class="page-header">
             <h1 class="project-name">Xphere</h1>
-            <a href="#" class="btn">Início</a>
-            <a href="#" class="btn">Sobre a Empresa</a>
-            <a href="#" class="btn">Fale Conosco</a>
+            <div>
+                <a href="#" class="btn">Início</a>
+                <a href="#" class="btn">Sobre a Empresa</a>
+                <a href="#" class="btn">Fale Conosco</a>
+            </div>
+
+            <!-- botão compartilhar-->
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count"></div>
+           
+            <!-- botão curtir-->
+            <!--div class="fb-like"></div-->
         </section>
     </body>
 </html>
