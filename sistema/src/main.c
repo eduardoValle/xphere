@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../libs/mongoose.h"
-#include "../libs/sqlite3.h"
+#include "libs/mongoose.h"
+#include "libs/sqlite3.h"
 
 #define tamanho_buffer 150000
 
@@ -16,12 +16,12 @@ int main(void) {
 
     // Serve request. Hit Ctrl-C to terminate the program
     printf("Iniciando na porta %s\n", mg_get_option(server, "listening_port"));
-    for (;;) {
+    
+    for (;;){
         mg_poll_server(server, 1000);
     }
 
     // Limpando e liberando o servidor
     mg_destroy_server(&server);
-
     return 0;
 }
