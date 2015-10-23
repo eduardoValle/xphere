@@ -28,7 +28,7 @@ function checkLoginState() {
 }
 window.fbAsyncInit = function () {
 	FB.init({
-		appId: '1493282524315132',
+		appId: '000000000000000',
 		cookie: true, // enable cookies to allow the server to access
 		// the session
 		xfbml: true, // parse social plugins on this page
@@ -54,7 +54,7 @@ window.fbAsyncInit = function () {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=1493282524315132";
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=000000000000000000";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 // Here we run a very simple test of the Graph API after login is
