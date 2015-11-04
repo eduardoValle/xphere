@@ -1,75 +1,238 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="pt">
     <head>
-        <meta charset="UTF-8">
-        <title>Xphere by matheusmatos26</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    </head>
-    <body>
-        
-        <!-- botão compartilhar-->
-        <div id="fb-root"></div>
-        <script>(function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id))
-                    return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=769129179883605";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="Thiago Luiz Pereira Viveiros" content="">
+        <title>Xphere Router</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/prettyPhoto.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    </head><!--/head-->
 
-        <!-- botão curtir-->
-        <div id="fb-root"></div>
-        <script>(function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id))
-                    return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=769129179883605";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
+    <body data-spy="scroll" data-target="#navbar" data-offset="0">
+        <header id="header" role="banner">
+            <div class="container">
+                <div id="navbar" class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
 
-
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=http://matheusmatos26.github.io/xphere" target="http://matheusmatos26.github.io/xphere">
-                    <img src="https://cloud.githubusercontent.com/assets/6935156/9972224/cfb9bdf4-5e38-11e5-8431-d374bc952b0e.png"  alt="Curta nossa página">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://twitter.com/intent/tweet?source=URL&text=TITLE:http://matheusmatos26.github.io/xphere&via=TWITTERUSERNAME" target="http://matheusmatos26.github.io/xphere" title="Tweet">
-                    <img src="https://cloud.githubusercontent.com/assets/6935156/9972226/cfc2d074-5e38-11e5-8f7c-051aee3ba98f.png" alt="Siga-nos no twitter">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://plus.google.com/share?url=http://matheusmatos26.github.io/xphere" target="http://matheusmatos26.github.io/xphere" title="Compartilhe on Google+">
-                    <img src="https://cloud.githubusercontent.com/assets/6935156/9972225/cfbbef7a-5e38-11e5-9d06-f13d9e24237b.png" alt="Compartilhe on Google+">
-                </a>
-            </li>
-        </ul>
-
-        <section class="page-header">
-            <h1 class="project-name">Xphere</h1>
-            <div>
-                <a href="#" class="btn">Início</a>
-                <a href="#" class="btn">Sobre a Empresa</a>
-                <a href="#" class="btn">Fale Conosco</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
+                            <!--<li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#pricing">Pricing</a></li>-->
+                            <li><a href="#team">Equipe</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </header><!--/#header-->
 
-            <!-- botão compartilhar-->
-            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count"></div>
-           
-            <!-- botão curtir-->
-            <!--div class="fb-like"></div-->
+        <section id="main-slider" class="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="carousel-content">
+                            <h2 class="Login">PARA ACESSAR A INTERNET</h2>
+                            <p class="lead">FAÇA LOGIN NO FACEBOOK</p>
+                            <a><fb:login-button data-size="xlarge" data-show-faces="false" data-auto-logout-link="true" scope="public_profile, email" onlogin="checkLoginState();"></fb:login-button></a>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+                <!--<div class="item">
+                    <div class="container">
+                        <div class="carousel-content">
+                            <h1>Engenharia de Computação</h1>
+                            <p class="lead">UNIVERSIDADE PRESIDENTE ANTÔNIO CARLOS - CONSELHEIRO LAFAIETE</p>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+            <!--<a class="prev" href="#main-slider" data-slide="prev"><i class="icon-angle-left"></i></a>
+            <a class="next" href="#main-slider" data-slide="next"><i class="icon-angle-right"></i></a>
+        <!--/#main-slider-->
         </section>
-    </body>
+        <section id="team">
+            <div class="container">
+                <div class="box">
+                    <div class="center">
+                        <h2>Equipe</h2>
+                        <p class="lead">A equipe é composta por alunos do oitavo período do curso de engenharia de computação da Universidade Presidente Antônio Carlos de Conselheiro Lafaiete e do professor e orientador Vinícius Maciel.</p>
+                    </div>
+                    <div class="gap"></div>
+                    <div id="team-scroller" class="carousel scale">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div></div>
+                                    <div class="col-sm-4">
+                                        <div class="member">
+                                            <p><img class="img-responsive img-thumbnail img-circle" src="images/Vinicius.jpg" alt="" ></p>
+                                            <h3>Vinícius Maciel</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="member">
+                                            <p><img class="img-responsive img-thumbnail img-circle" src="images/Violêro.jpg" alt="" ></p>
+                                            <h3>Luiz Eduardo</h3>
+                                        </div>
+                                    </div>        
+                                    <div class="col-sm-4">
+                                        <div class="member">
+                                            <p><img class="img-responsive img-thumbnail img-circle" src="images/Thiago.jpg" alt="" ></p>
+                                            <h3>Thiago Viveiros</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="member">
+                                            <p><img class="img-responsive img-thumbnail img-circle" src="images/Alexandre.jpg" alt="" ></p>
+                                            <h3>Macaulay Culkin</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="member">
+                                            <p><img class="img-responsive img-thumbnail img-circle" src="images/Matheus.jpg" alt="" ></p>
+                                            <h3>Matheus Medeiros</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="member">
+                                            <p><img class="img-responsive img-thumbnail img-circle" src="images/João André.jpg" alt="" ></p>
+                                            <h3>João André</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="member">
+                                            <p><img class="img-responsive img-thumbnail img-circle" src="images/Giselle.jpg" alt="" ></p>
+                                                <h3>Giselle Cirino</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<a class="left-arrow" href="#team-scroller" data-slide="prev">
+                        <i class="icon-angle-left icon-4x"></i>
+                    </a>
+                    <a class="right-arrow" href="#team-scroller" data-slide="next">
+                        <i class="icon-angle-right icon-4x"></i>
+                    </a><!-->
+                </div><!--/.carousel-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#about-us-->
+
+    <section id="contact">
+        <div class="container">
+            <div class="box last">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>Contato</h1>
+                        <p></p>
+                        <div class="status alert alert-success" style="display: none"></div>
+                        <form id="main-contact-form" class="contact-form" name="Formulário" method="post" action="sendemail.php" role="form">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" placeholder="Nome">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <textarea name="Mensagem" id="message" required="Requerido" class="form-control" rows="8" placeholder="Mensagem"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--/.col-sm-6-->
+                    <div class="col-sm-6">
+                        <h1>Endereço</h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <address>
+                                    <strong>Xphere</strong><br>
+                                    BR 0000 , S/N, Bairro Gigante<br>
+                                    Conselheiro Lafaiete, MG<br>
+                                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                                </address>
+                            </div>
+<!--                            <div class="col-md-6">
+                                <address>
+                                    <strong>Twitter, Inc.</strong><br>
+                                    795 Folsom Ave, Suite 600<br>
+                                    San Francisco, CA 94107<br>
+                                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                                </address>
+                            </div>-->
+                        </div>
+                        <h1>Siga-nos</h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="social">
+                                    <li><a href="#"><i class="icon-facebook icon-social"></i> Facebook</a></li>
+<!--                                    <li><a href="#"><i class="icon-google-plus icon-social"></i> Google Plus</a></li>
+                                    <li><a href="#"><i class="icon-pinterest icon-social"></i> Pinterest</a></li>-->
+                                </ul>
+                            </div>
+<!--                            <div class="col-md-6">
+                                <ul class="social">
+                                    <li><a href="#"><i class="icon-linkedin icon-social"></i> Linkedin</a></li>
+                                    <li><a href="#"><i class="icon-twitter icon-social"></i> Twitter</a></li>
+                                    <li><a href="#"><i class="icon-youtube icon-social"></i> Youtube</a></li>
+                                </ul>
+                            </div>-->
+                        </div>
+                    </div><!--/.col-sm-6-->
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#contact-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2015 <a target="_blank" href="Xphere" title="Access manager">Xphere Router</a>. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/app.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
