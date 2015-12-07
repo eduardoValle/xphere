@@ -4,6 +4,8 @@ add_definitions(-Wall -g -pedantic -ggdb -lpthread -lcppdb_sqlite3)
 
 add_subdirectory(banco)
 
+add_subdirectory(includes)
+
 add_subdirectory(libs)
 
 add_executable(xphere main.c)

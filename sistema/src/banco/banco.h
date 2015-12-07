@@ -19,7 +19,7 @@ typedef struct {
 } cliente;
 
 int connectar_db();
-int criar_tabela();
+int criar_tabelas();
 int inserir(cliente c);
 int atualizar(cliente c);
 int deletar(int id_cliente);
